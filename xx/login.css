@@ -1,0 +1,175 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css");
+body {
+    background-color: #161616;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .headingstyle{
+    position: absolute;
+    top: 20%;
+    left: 34%;
+    color: white;
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .menu ul{
+    display:inline-flex;
+    margin: 50px;
+    color:white
+}
+.menu ul li{
+  list-style:none;
+  margin: 0 20px;
+  color:white;
+  cursor:pointer;
+}
+.menu ul li a{
+  color: white;
+  text-decoration: none;
+}
+.logo img{
+  width: 100px;
+  margin-top: -5px;
+  margin-right: 270px;
+}
+  .login {
+    overflow: hidden;
+    background-color: white;
+    padding: 40px 30px 30px 30px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: -webkit-transform 300ms, box-shadow 300ms;
+    -moz-transition: -moz-transform 300ms, box-shadow 300ms;
+    transition: transform 300ms, box-shadow 300ms;
+    box-shadow: 5px 10px 10px rgba(69, 105, 144, 0.15);
+  }
+  .login::before, .login::after {
+    content: "";
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 45%;
+    border-bottom-left-radius: 35%;
+    border-bottom-right-radius: 40%;
+    z-index: -1;
+  }
+  .login::before {
+    left: 40%;
+    bottom: -130%;
+    background-color: darkgray;
+  }
+  .login::after {
+    left: 35%;
+    bottom: -125%;
+    background-color:darkgray;
+  }
+  .login > input {
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    border-radius: 5px;
+    font-size: 16px;
+    background: white;
+    width: 100%;
+    border: 0;
+    padding: 10px 10px;
+    margin: 15px -10px;
+  }
+
+  
+  
+  
+
+  .login > button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    width: 80px;
+    border: 0;
+    padding: 10px 0;
+    margin-top: 10px;
+    margin-left: -5px;
+    border-radius: 5px;
+    background-color: #161616;
+    -webkit-transition: background-color 300ms;
+    -moz-transition: background-color 300ms;
+    transition: background-color 300ms;
+    outline: none;
+  }
+  .login > button:hover {
+    background-color: #161616;
+  }
+
+  a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    font-size: 12px;
+  }
+
+  
+  li {
+    color: #333;
+    list-style: none;
+    position: relative;
+    padding-left: 50px;
+    line-height: 2;
+    font-size: 32px;
+    cursor: pointer;
+  }
+  
+  li:before {
+    font-family: FontAwesome;
+    position: absolute;
+    left: 0;
+    color:#161616;
+    font-size: 32px;
+  }
+  
+  li.one:before {
+    content: "\f111";
+  }
+  li.two:before {
+    content: "\f00c";
+  }
+  li.three:before {
+    content: "\f10c";
+  }
+  li.four:before {
+    content: "\f004";
+  }
+  li.five:before {
+    content: "\f1e2";
+  }
+  li.six:before {
+    content: "\f0e7";
+  }
+  
+  li:hover:before {
+    color: #161616;
+  }
+  
+  .headingstyle1{
+    position: absolute;
+    top: 23%;
+    left: 41%;
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
